@@ -10,16 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var ImageSlider: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        
+        ImageSlider.animationImages = [
+        UIImage (named: "back.png")! , UIImage (named: "back4.1.jpg")! , UIImage (named: "back4.2.jpg")! , UIImage (named: "back4.3.jpg")! , UIImage (named: "back4.4.jpg")!
+            
+        ]
+        
+        ImageSlider.animationDuration = 5
+        ImageSlider.startAnimating()
+        
     }
+    
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
 
