@@ -161,9 +161,11 @@
 				TargetAttributes = {
 					6C3961E61C36DAFA00450245 = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0820;
 					};
 					6C3961FB1C36DAFA00450245 = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0820;
 						TestTargetID = 6C3961E61C36DAFA00450245;
 					};
 				};
@@ -345,6 +347,7 @@
 				INFOPLIST_FILE = iOSImageSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -355,6 +358,7 @@
 				INFOPLIST_FILE = iOSImageSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -373,6 +377,7 @@
 				INFOPLIST_FILE = iOSImageSliderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSImageSlider.app/iOSImageSlider";
 			};
 			name = Debug;
@@ -388,6 +393,7 @@
 				INFOPLIST_FILE = iOSImageSliderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSImageSlider.app/iOSImageSlider";
 			};
 			name = Release;
@@ -411,6 +417,7 @@
 				6C3962081C36DAFA00450245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C3962091C36DAFA00450245 /* Build configuration list for PBXNativeTarget "iOSImageSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +426,7 @@
 				6C39620B1C36DAFA00450245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
